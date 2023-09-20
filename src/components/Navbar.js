@@ -16,9 +16,9 @@ function Navbar() {
 
       <ul className='hidden md:flex'>
         <li>Home</li>
+        <li>About</li>
         <li>Skills</li>
         <li>Work</li>
-        <li>About</li>
         <li>Contact</li>
       </ul>
 
@@ -33,9 +33,9 @@ function Navbar() {
         }
       >
         <li className='py-6 text-4xl'>Home</li>
+        <li className='py-6 text-4xl'>About</li>
         <li className='py-6 text-4xl'>Skills</li>
         <li className='py-6 text-4xl'>Work</li>
-        <li className='py-6 text-4xl'>About</li>
         <li className='py-6 text-4xl'>Contact</li>
       </ul>
       <div className='hidden lg:flex fixed flex-col top-[35%] right-0'>
@@ -43,7 +43,7 @@ function Navbar() {
           <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-90px] hover:ml-[-90px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://linkedin.com/in/vladyslav-kadyrov-0b83b7203'
             >
               <FaLinkedin size={40} /> LinkedIn
             </a>
@@ -51,7 +51,7 @@ function Navbar() {
           <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-90px] hover:ml-[-90px] duration-300 bg-gray-800'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/irondude14/'
             >
               <FaGithub size={40} /> GitHub
             </a>
