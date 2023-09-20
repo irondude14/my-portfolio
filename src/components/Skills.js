@@ -7,7 +7,6 @@ import Redux from '../assets/redux.png';
 import Rails from '../assets/rails.png';
 import Ruby from '../assets/ruby.png';
 import PostgreSQL from '../assets/postgresql.png';
-import SQlite from '../assets/sqlite.png';
 
 function Skills() {
   return (
