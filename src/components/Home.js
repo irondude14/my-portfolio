@@ -2,6 +2,11 @@ import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 
+import About from './About';
+import Skills from './Skills';
+import Work from './Work';
+import Contact from './Contact';
+
 function Home() {
   return (
     <div name='home' className='w-full h-screen bg-[#0a192f]'>
@@ -28,6 +33,10 @@ function Home() {
           </button>
         </div>
       </div>
+      <About />
+      <Skills />
+      <Work />
+      <Contact />
     </div>
   );
 }

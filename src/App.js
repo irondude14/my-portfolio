@@ -1,20 +1,19 @@
 import Home from './components/Home';
 import Navbar from './components/Navbar';
-import About from './components/About';
-import Skills from './components/Skills';
-import Work from './components/Work';
-import Contact from './components/Contact';
+import Email from './components/Email';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Work />
-      <Contact />
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/email-form' element={<Email />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

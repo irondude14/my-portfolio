@@ -24,8 +24,8 @@ function About() {
               I take great pleasure in crafting responsive full-stack
               applications. You can explore my projects in the 'Work' section,
               where links to both the GitHub repositories and live versions of
-              these applications are provided. If you're considering adding me
-              to your team, please don't hesitate to reach out.
+              these applications are provided. If you'd like to talk about my
+              work more, don't hesitate and reach out.
             </p>
           </div>
         </div>
