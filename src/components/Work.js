@@ -24,7 +24,7 @@ function Work() {
                 Full-Stack Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://medical-office-app.onrender.com/'>
+                <a href='https://med-office-app.onrender.com'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Live
                   </button>
@@ -52,11 +52,11 @@ function Work() {
                 Full-Stack Application
               </span>
               <div className='pt-8 text-center'>
-                {/* <a href='https://medical-office-app.onrender.com/'>
+                <a href='https://tables-app.onrender.com'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Live
                   </button>
-                </a> */}
+                </a>
                 <a href='https://github.com/irondude14/restaurant-reservation-app'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
